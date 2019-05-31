@@ -8,7 +8,7 @@ public class Main {
     private static int numVariables = 3;
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Possible assignments to variables X, Y, Z, such that X != Y != Z");
         // add to the frontier an empty assignment to the variables
         List<Boolean> emptyAssignment = new ArrayList<>();
         frontier.push(emptyAssignment);
