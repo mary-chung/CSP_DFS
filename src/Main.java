@@ -59,8 +59,6 @@ public class Main {
                         frontier.push(neighbour2);
                     }
                 }
-            // recurse through tree
-            DFS();
         }
     }
 }
